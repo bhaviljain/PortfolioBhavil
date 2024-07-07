@@ -24,14 +24,14 @@ menu_item.forEach((item) => {
 	});
 });
 let button = document.getElementById('btn').onclick = function(){
-	location.href = "https://bhaviljain.github.io/myntra/"
+	location.href = "https://netflix-gpt-omega-two.vercel.app/"
 }
 
 // https://main--stalwart-croissant-0f948d.netlify.app/
 
 let button2 =  document.getElementById('btn2').onclick = function(){
-	location.href = "https://main--stalwart-croissant-0f948d.netlify.app/"
+	location.href = "https://bhaviljain.github.io/cam-app/"
 }
 let button3 =  document.getElementById('btn3').onclick = function(){
-	location.href = "https://rad-clafoutis-ef209a.netlify.app/"
+	location.href = "https://youtube-nine-kappa.vercel.app/"
 }

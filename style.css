@@ -13,7 +13,7 @@ a {
 	text-decoration: none;
 }
 .container {
-	min-height: 100vh;
+	min-height: 70vh;
 	width: 100%;
 	display: flex;
 	align-items: center;
@@ -22,11 +22,25 @@ a {
 img {
 	height: 100%;
 	width: 100%;
-	object-fit: cover;
+	object-fit: contain;
+}
+video {
+	height: 100%;
+	width: 100%;
+	object-fit: contain;
 }
 p {
 	color: black;
 	font-size: 1.4rem;
+	margin-top: 5px;
+	line-height: 2.5rem;
+	font-weight: 300;
+	letter-spacing: 0.05rem;
+}
+.techstack
+{
+	color: white;
+	font-size: 1rem;
 	margin-top: 5px;
 	line-height: 2.5rem;
 	font-weight: 300;
@@ -420,7 +434,7 @@ p {
 	top: 0;
 	height: 100%;
 	width: 100%;
-	background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
+	/* background-image: linear-gradient(60deg, #29323c 0%, #485563 100%); */
 	opacity: 0.7;
 }
 #projects .project-img img {
