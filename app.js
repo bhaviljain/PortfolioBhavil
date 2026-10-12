@@ -35,3 +35,6 @@ let button2 =  document.getElementById('btn2').onclick = function(){
 let button3 =  document.getElementById('btn3').onclick = function(){
 	location.href = "https://youtube-nine-kappa.vercel.app/"
 }
+let button4 =  document.getElementById('btn4').onclick = function(){
+	location.href = "https://exporttopdf.dev/app/login"
+}
